@@ -1,5 +1,5 @@
 import React from 'react'
-import Login from '../assets/login.png'
+
 export default function Main() {
   return (
     <>
@@ -10,16 +10,6 @@ export default function Main() {
             </p>
         </div>
         
-    <section className="relative">
-        <div className=" w-10/12 flex justify-between ">
-            <img src={Login} alt="" className=""/>
-            <div className="">
-                <h3>Create an account</h3>
-                <h2>Create/login to an existing account to get started</h2>
-                <p>An account is created with your email and a desired password</p>
-            </div>
-        </div>
-    </section>
     </>
   )
 }
