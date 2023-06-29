@@ -19,18 +19,18 @@ export default function Navbar() {
     
     }
             
-          <ul className=' hidden w-[40%] p-12  md:flex justify-evenly  '>
-            <a href="" >Home</a>
-            <a href="">Contact</a>
-            <a href="">Faq</a>
-            <a href="">Payments</a>
+          <ul className=' hidden w-[40%] p-12  md:flex justify-evenly font-[montserrat] '>
+            <a href="#" className="text-[#FA4A0C] font-bold" >Home</a>
+            <a href="#" className='text-[#252B42] font-bold'>Contact</a>
+            <a href="#" className='text-[#252B42] font-bold'>Faq</a>
+            <a href="#" className='text-[#252B42] font-bold'>Payments</a>
           </ul>
   </div>
-          <ul className={`duration-300 md:hidden fixed flex flex-col text-white w-full h-screen bg-black items-center ${toggle ? 'left-0' : 'left-[-100%]'}`}>
-            <a href="" className='p-3' >Home</a>
-            <a href="" className='p-3'>Contact</a>
-            <a href=""className='p-3'>Faq</a>
-            <a href=""className='p-3'>Payments</a>
+          <ul className={`duration-300 md:hidden fixed flex flex-col text-white h-screen bg-black items-center ${toggle ? 'left-0' : 'left-[-100%]'}`}>
+            <a href="#" className='p-3' >Home</a>
+            <a href="#" className='p-3'>Contact</a>
+            <a href="#"className='p-3'>Faq</a>
+            <a href="#"className='p-3'>Payments</a>
           </ul>
     </>
   )
